@@ -1,0 +1,30 @@
+{
+  "name": "ollama-assistant",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "scripts": {
+    "chat": "node cli.js chat",
+    "debug": "node cli.js debug",
+    "explain": "node cli.js explain",
+    "build": "node cli.js build",
+    "models": "node cli.js models",
+    "bot": "node cli.js bot"
+  },
+  "keywords": [
+    "ollama",
+    "cli",
+    "assistant",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Personal AI assistant powered by Ollama",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^17.4.0",
+    "node-telegram-bot-api": "^0.67.0",
+    "ollama": "^0.6.3",
+    "ora": "^9.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
